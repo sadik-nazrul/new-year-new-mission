@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.header{
+    height: 100vh;
+    background-image: url(./assets/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
