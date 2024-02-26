@@ -42,7 +42,7 @@ img{
 /* Herade Css Start */
 header{
     height: 80vh;
-    margin: 40px 80px;
+    margin: 40px 60px;
     background-image: url(./assets/Banner\ Image.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ header{
 /* Welcome Start */
 .welcome{
     height: 60vh;
-    margin: 40px 80px;
+    margin: 40px 60px;
     padding-left: 80px;
     background-image: url(./assets/welcombg.png);
     background-size: cover;
@@ -98,4 +98,44 @@ header{
 }
 .intro{
     width: 300px;
+}
+
+/* Portfolio Section */
+.portfolio{
+    align-items: start;
+    gap: 20px;
+    padding: 40px 60px
+}
+.des {
+    width: 835px;
+}
+.portfolios{
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Newsletter Section */
+.newsletter{
+    margin: 40px 60px;
+    background-color: #0702111a;
+    padding: 40px 0;
+    border-radius: 6px;
+}
+.newsletter > div > p {
+    text-align: center;
+}
+input[type="email"] {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+input[type="submit"] {
+    margin-left: -8px;
+    background-color: #FF0000;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    color: white;
 }
