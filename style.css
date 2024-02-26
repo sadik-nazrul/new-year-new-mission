@@ -17,6 +17,9 @@ html, body{
 }
 
 /* Reusable classes */
+img{
+    max-width: 100%;
+}
 .primary-font{
     font-family: "Inter";
 }
@@ -35,6 +38,7 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+
 /* Herade Css Start */
 header{
     height: 80vh;
@@ -52,7 +56,7 @@ header{
     margin-bottom: 10px;
 }
 .title{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /* Main Start */
@@ -69,4 +73,29 @@ header{
 }
 .ctg{
     margin-bottom: 30px;
+}
+
+/* Welcome Start */
+.welcome{
+    height: 60vh;
+    margin: 40px 80px;
+    padding-left: 80px;
+    background-image: url(./assets/welcombg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 6px;
+    color: white;
+    align-items: start;
+    gap: 10px;
+}
+
+/* Bonus Section */
+.bonus{
+    padding: 40px 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.intro{
+    width: 300px;
 }
