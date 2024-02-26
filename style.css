@@ -20,6 +20,19 @@ html, body{
 img{
     max-width: 100%;
 }
+
+button {
+    padding: 12px 30px;
+    background: #ff0000;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #ffffff;
+}
+button:hover{
+    background-color: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
 .primary-font{
     font-family: "Inter";
 }
@@ -138,4 +151,47 @@ input[type="submit"] {
     border: none;
     border-radius: 0 20px 20px 0;
     color: white;
+}
+
+/* Footer */
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 60px;
+    margin: 80px 0 0 0;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+.mail > a {
+    text-decoration: none;
+    color: white;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #ffffff33;
+    border-bottom: 1px solid #ffffff33;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
 }
